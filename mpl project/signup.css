@@ -1,0 +1,48 @@
+body {
+    font-family: 'Alumni Sans', sans-serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 2%;
+}
+form input {
+    border: none;
+    background-color: wheat;
+    padding: 2%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+img {
+    margin: auto;
+
+}
+
+form label {
+    font-weight: bold;
+    padding: 2%;
+}
+
+#btndivv {
+
+    width: 50%;
+
+    margin: auto
+}
+
+.btnndivv {
+    width: 100%;
+    padding: 4%;
+    background-color: chartreuse;
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+}
+@media only screen and (max-width:500px) {
+    form{
+        width: 90%;
+    }
+}

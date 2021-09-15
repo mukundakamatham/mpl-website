@@ -1,0 +1,1217 @@
+body {
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+#viratimg {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#viratimg img {
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    /* min-width: 700px; */
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.heading {
+    position: absolute;
+    /* display: flex; */
+    flex-direction: column;
+    width: 50%;
+
+    height: 100%;
+    top: 30%;
+    left: 12%;
+}
+
+.viratinside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+    width: 80%;
+}
+
+.headinghead {
+    font-size: 150%;
+    font-weight: 800;
+    color: rgb(51, 39, 80);
+    margin-bottom: 8%;
+}
+
+.virat_para {
+    width: 100%;
+    font-size: 120%;
+    margin-top: 2px;
+
+}
+
+.viratinside input {
+    height: 28px;
+}
+
+.viratinside button {
+    font-weight: 700;
+    /* height: 34px; */
+    min-height: 34px;
+    padding: 3%;
+    background-color: rgb(0, 255, 110);
+    border: none;
+    /* min-width: 150px; */
+}
+
+#agianred {
+    margin-top: 570px;
+    width: 100%;
+}
+
+#agianred img {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#red_bottom {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 17%;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+#red_bottom p {
+    line-height: 7px;
+}
+
+#red_bottom h3 {
+    line-height: 8px;
+    margin-top: 25%;
+    width: 100%;
+    font-weight: 800;
+}
+
+.divv {
+    width: 80%;
+    min-width: 20%;
+}
+
+#upi_heading {
+    width: 100%;
+    text-align: center;
+}
+
+#upi_heading {
+    margin-top: 70px;
+    font-size: 2vw;
+    color: rgb(0, 0, 83);
+}
+
+#upi {
+    margin: auto;
+    margin-bottom: 10%;
+    display: grid;
+    gap: 5%;
+    width: 50%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#upi div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+}
+
+#upi img {
+    width: 100%;
+    margin: auto;
+}
+
+#upi p {
+    font-size: 100%;
+}
+#Bottomdiv{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+} #Bottomdiv h4{
+    font-size: 14px;
+}
+#Bottomdiv p{
+    font-size: 12px;
+    color: rgb(90, 90, 90);
+}
+#Bottomdiv h3{
+    font-size: 14px;
+}
+#Bottomdiv div img{
+    width: 20px;
+    margin: 5px;
+}
+
+#mpl_sports {
+    width: 55%;
+    height: 280px;
+    background-image: url(https://www.mpl.live/static/banners/newmpl-widget-desktop.png);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    margin-bottom: 10%;
+}
+
+#mpl_sports div {
+    width: 20%;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+#mpl_sports div img {
+    width: 100%;
+    padding: 2% 2% 3%;
+    margin-left: 4%;
+}
+
+#mpl_sports div:nth-child(2) {
+    width: 50%;
+    /* font-size: 100%; */
+}
+
+#mpl_sports h2 {
+    font-size: 25px;
+    color: white;
+    font-weight: 800;
+    line-height: 100%;
+    /* padding: 0px; */
+    margin: 4px;
+}
+
+#mpl_sports button {
+    margin-top: 50px;
+    margin-left: 2%;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 550;
+    border: none;
+    padding: 0% 5%;
+    color: rgb(56, 0, 102);
+    background-color: rgb(0, 255, 110);
+}
+
+#games_heading {
+    text-align: center;
+    line-height: 100%;
+    margin-bottom: 5%;
+}
+
+#games_heading h1 {
+    color: rgb(6, 0, 85);
+    font-size: 3vw;
+}
+
+#games_heading p {
+    color: rgb(141, 141, 141);
+    font-weight: 400;
+    font-size: 19px;
+}
+
+#games_body {
+    margin: auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 10%;
+}
+
+#games_body div {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    text-align: center;
+}
+
+#games_body img {
+    width: 40%;
+    margin: auto;
+    border-radius: 8px;
+}
+
+#Indians {
+    text-align: center;
+    font-weight: 800;
+    color: rgb(0, 1, 54);
+    width: 100%;
+    margin-bottom: 8%;
+}
+
+#Indians_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 65%;
+    /* background-color: rebeccapurple; */
+    margin: auto;
+    gap: 10px;
+    margin-bottom: 10%;
+}
+
+#Indians_box div {
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    padding: 4%;
+    background-color: rgb(231, 222, 228);
+    border-radius: 5%;
+    text-align: center;
+
+}
+
+#Indians_box img {
+    width: 55%;
+    margin: auto;
+    /* margin-bottom: 0px; */
+}
+
+#Indians_box p {
+    color: rgb(139, 139, 139);
+    font-size: 15px;
+
+    font-weight: 500;
+    /* padding: 0px; */
+    margin: 0px;
+    padding-bottom: 5%;
+}
+
+#Indians_box h4 {
+    color: rgb(145, 20, 177);
+    margin: 0px;
+    font-weight: 700;
+    /* line-height: 2px; */
+}
+
+#Indians_box h2 {
+    color: rgb(255, 0, 85);
+    font-weight: 800;
+    font-size: 20px;
+    /* line-height: 100%; */
+}
+
+#sponsors {
+    background-color: rgb(21, 0, 59);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-bottom: 5%;
+
+}
+
+#sponsors h1 {
+    font-weight: 900;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sponsordiv {
+    display: flex;
+    width: 30%;
+    margin: auto;
+}
+
+.sponsordiv img {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 5px;
+    justify-self: center;
+}
+
+.gaming_class {
+    font-weight: 900;
+    color: rgb(0, 5, 68);
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#gaming_body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#gaming_body div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#gaming_body img {
+    width: 60%;
+    margin: auto;
+}
+
+#gaming_body h4 {
+    margin: 0px;
+}
+
+#gaming_body p {
+    margin: 0px;
+    color: rgb(85, 78, 78);
+}
+
+.membership {
+    text-align: center;
+    margin-bottom: 5%;
+    /* font-weight: 900; */
+    color: rgb(0, 0, 83);
+}
+
+#members {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 5%;
+    margin-bottom: 10%;
+}
+
+#members img {
+    width: 22%;
+}
+
+.sixty_games {
+    text-align: center;
+    color: rgb(0, 0, 83);
+}
+
+.sixty_games2 {
+    text-align: center;
+    color: rgb(0, 0, 83);
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+#mainslide {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: auto;
+    margin-bottom: 8%;
+
+}
+
+#mainslide .insidebox {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+
+#mainslide img {
+    width: 80%;
+    border-radius: 6px;
+}
+
+#more {
+    display: none;
+}
+
+i {
+    color: red;
+}
+
+#mainslide h4 {
+    margin: 5px;
+    font-weight: 600;
+    color: rgb(112, 112, 112);
+    margin-left: 0px;
+}
+
+#mainslide p {
+    margin: 0px;
+    font-weight: 300;
+    color: rgb(139, 139, 139);
+}
+
+.about_mpl {
+    text-align: center;
+    color: rgb(6, 0, 85);
+    font-size: 33px;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+.mplBottem {
+    width: 10%;
+    margin: auto;
+    margin-bottom: 1%;
+}
+
+.mplBottem img {
+    margin: auto;
+    width: 100%;
+}
+
+#socialmedial {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 45%;
+    gap: 10%;
+    margin: auto;
+    margin-bottom: 6%;
+}
+
+#socialmedial img {
+    width: 90%;
+}
+
+.aboutGaminApp {
+    text-align: center;
+    color: rgb(0, 0, 83);
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+#aboutSectionPara {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-size: 80%;
+    color: rgb(139, 139, 139);
+    margin-bottom: 7%;
+}
+
+/* mukund's css */
+
+
+#topheader {
+    /* min-width: 700px; */
+    background-color: #ffffff;
+    z-index: 1001;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    /* max-height: 100px; */
+    /* min-height: 56px; */
+
+}
+
+.header_body {
+    display: grid;
+    grid-template-columns: 8% 8% 10% 10% 8% 7% 7% 10%;
+
+    grid-gap: 4%;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+
+.mpl_arr {
+    display: grid;
+    /* font-size: 12px; */
+    grid-template-columns: 100%;
+    cursor: pointer;
+    height: 70px;
+    margin-top: 5px;
+    margin: 0px;
+    min-width: 100%;
+
+}
+
+.mpl_text {
+    text-align: center;
+    font-size: 12px;
+    max-width: 100%;
+    min-height: 60px;
+    min-width: 65px;
+    height: 35px;
+    padding-top: 15px;
+
+}
+
+.header_logo img {
+    width: 70%;
+    /* min-width: 80px; */
+    height: 80%;
+    margin: 5%;
+    cursor: pointer;
+}
+
+#topheader a {
+    color: black;
+}
+
+.mpl_es {
+    background-color: rgb(0, 255, 110);
+    text-align: center;
+    /* font-size: large; */
+    max-width: 100%;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 6px;
+    /* min-height: 60px; */
+    min-width: 90px;
+    border: none;
+    height: 30px;
+}
+
+#a {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+    width: 100%;
+    min-width: 90px;
+    height: 50px;
+}
+
+.help {
+    /* display: flex; */
+    /* grid-template-columns: 45% 45%; */
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+
+
+.arrow {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #230046;
+    border-left: 2px solid #230046;
+    -webkit-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    color: transparent;
+    margin-left: 16px;
+    margin-right: 8px;
+}
+
+.arrow.up {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    /* margin-top: 4px; */
+}
+
+.arrow.down {
+
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    /* margin-top: -100px; */
+}
+
+#arr {
+    width: 100%;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17% 23%;
+    grid-template-rows: auto;
+    grid-gap: 2%;
+    min-width: 700px;
+    min-height: 500px;
+
+}
+
+/* .vertical {
+display: grid;
+grid-template-rows: auto;
+} 
+.vertical div {
+height: 40px;
+margin: 5px;
+}  */
+
+a {
+    color: rgb(172, 171, 171);
+    text-decoration: none;
+}
+
+#last a {
+    color: black;
+}
+
+.container_last {
+    width: 80%;
+    margin: auto;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    margin-top: 0px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 600px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.show {
+    display: block;
+}
+
+.dropdown-content a {
+    color: rgb(39, 39, 39);
+
+}
+
+#mynav .list {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: auto;
+    grid-gap: 2%;
+    min-width: 900px;
+}
+
+#mynav .horizontal {
+    display: grid;
+    grid-template-columns: 25% 70%;
+    grid-gap: 5%;
+}
+
+#mynav .horizontal img {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+#mynav .vertical {
+    display: grid;
+    grid-template-rows: auto;
+
+}
+
+#mynav .vertical div {
+    /* height: 40px; */
+    margin: 5px;
+    min-width: 150px;
+}
+
+#mynav a {
+    color: rgb(172, 171, 171);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#last a {
+    color: rgb(53, 52, 52);
+}
+
+#mynav.container_last {
+    width: 80%;
+    margin: auto;
+}
+
+#imghol {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    grid-gap: 5%
+}
+
+h5 {
+    color: rgb(41, 40, 40);
+}
+
+
+
+#b {
+
+    /* text-align: left; */
+    margin-top: 6px;
+    font-weight: 300;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    width: 40%;
+    gap: 7px;
+    min-width: 90px;
+    height: 27px;
+
+}
+
+#b a {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+#b img {
+    margin: auto;
+    width: 80%;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+#b a {
+    color: red;
+}
+
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+#myDropdown a {
+    font-size: 15px;
+}
+
+.dropdown-cont {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-cont a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-cont a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-cont {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #d9e2d9;
+}
+
+.blog {
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+    width: 100%;
+    min-width: 90px;
+    height: 50px;
+}
+.overlay {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: rgb(145, 143, 143);
+background-color: rgba(199, 198, 198, 0.9);
+overflow-x: hidden;
+transition: 0.5s;
+}
+
+.overlay-content {
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+
+.overlay a {
+padding: 8px;
+text-decoration: none;
+font-size: 30px;
+color: #000000;
+display: block;
+transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+color: #f1f1f1;
+}
+
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 40px;
+}
+#sliderbar{
+width: 100%;
+}
+#slidebar img{
+width: 50px;
+position: absolute;
+top: 15px;
+right: 20px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(255, 153, 153);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 215, 215);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #d4d4d4;
+    width: 20px;
+}
+
+
+@media only screen and (max-width:500px) {
+    .headinghead {
+        font-size: 20px;
+    }
+    #Bottomdiv{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .viratinside {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .heading {
+        min-width: 80%;
+    }
+
+    .virat_para {
+        font-size: 12px;
+    }
+
+    #agianred {
+        margin-top: 550px;
+        /* display: none; */
+    }
+
+    #upi_heading {
+        font-size: 12px;
+    }
+
+    #upi {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #upi img {
+        width: 50%;
+    }
+
+    #mpl_sports {
+        width: 100%;
+        height: 180px;
+    }
+
+    #mpl_sports h2 {
+        font-size: 16px;
+    }
+
+    #mpl_sports button {
+        height: 25px;
+        width: 100px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    #games_heading p {
+        font-size: 12px;
+    }
+
+    #games_body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #games_body img {
+        width: 30%;
+    }
+
+    #games_body p {
+        font-size: 12px;
+    }
+
+    #Indians {
+        font-size: 12px;
+    }
+
+    #Indians_box {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #sponsors {
+        font-size: 8px;
+    }
+
+    .sponsordiv img {
+        width: 50px;
+    }
+
+    .gaming_class {
+        font-size: 8px;
+    }
+
+    #gaming_body {
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        gap: 20px;
+    }
+
+    #gaming_body h4 {
+        font-size: 10px;
+    }
+
+    #gaming_body p {
+        font-size: 10px;
+    }
+
+    #gaming_body img {
+        width: 30%;
+    }
+
+    .membership {
+        font-size: 12px;
+    }
+
+    #members {
+        width: 80%;
+    }
+
+    .sixty_games {
+        font-size: 13px;
+    }
+
+    .sixty_games2 {
+        font-size: 14px;
+    }
+
+    #mainslide {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    #mainslide h4 {
+        font-size: 13px;
+    }
+
+    #mainslide p {
+        font-size: 12px;
+    }
+
+    #socialmedial {
+        width: 80%;
+    }
+
+    .about_mpl {
+        font-size: 15px;
+    }
+
+    .aboutGaminApp {
+        font-size: 14px;
+    }
+    #topheader{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:900px) {
+    .headinghead {
+        font-size: 24px;
+    }
+    #Bottomdiv{
+        display: grid;
+        /* flex-direction: column; */
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .viratinside {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .heading {
+        min-width: 260px;
+    }
+
+    .virat_para {
+        font-size: 18px;
+    }
+
+    #upi_heading {
+        font-size: 12px;
+    }
+
+    #upi {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #upi img {
+        width: 50%;
+    }
+
+    #mpl_sports {
+        width: 60%;
+        height: 180px;
+    }
+
+
+    #mpl_sports h2 {
+        font-size: 16px;
+    }
+
+    #mpl_sports button {
+        height: 25px;
+        width: 100px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    #games_heading p {
+        font-size: 12px;
+    }
+
+    #games_body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #games_body img {
+        width: 30%;
+    }
+
+    #games_body p {
+        font-size: 12px;
+    }
+
+    #Indians {
+        font-size: 12px;
+    }
+
+    #Indians_box {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #sponsors {
+        font-size: 8px;
+    }
+
+    .sponsordiv img {
+        width: 50px;
+    }
+
+    .gaming_class {
+        font-size: 8px;
+    }
+
+    #gaming_body {
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        gap: 20px;
+    }
+
+    #gaming_body h4 {
+        font-size: 10px;
+    }
+
+    #gaming_body p {
+        font-size: 10px;
+    }
+
+    #gaming_body img {
+        width: 30%;
+    }
+
+    .membership {
+        font-size: 12px;
+    }
+
+    #members {
+        width: 80%;
+    }
+
+    .sixty_games {
+        font-size: 13px;
+    }
+
+    .sixty_games2 {
+        font-size: 14px;
+    }
+
+    #mainslide {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    #mainslide h4 {
+        font-size: 13px;
+    }
+
+    #mainslide p {
+        font-size: 12px;
+    }
+
+    #socialmedial {
+        width: 80%;
+    }
+
+    .about_mpl {
+        font-size: 15px;
+    }
+
+    .aboutGaminApp {
+        font-size: 14px;
+    }
+    #topheader{
+        display: none;
+    }
+}
+#Indians_box div:hover{
+    background-color: rgb(178, 214, 189);
+}

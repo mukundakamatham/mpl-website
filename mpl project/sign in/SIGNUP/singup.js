@@ -35,7 +35,7 @@ function submitform(e) {
 }
 
 function myFunction() {
-    window.location.href = "login.html";
+    window.location.href = "../LOG IN/login.html";
 }
 
 let cart_data = JSON.parse(localStorage.getItem("myAdress:"));

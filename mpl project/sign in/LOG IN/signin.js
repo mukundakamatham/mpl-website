@@ -34,8 +34,8 @@ function user(p, a) {
 }
 
 function myFunction() {
-    window.location.href = "finalpage.html";
+    window.location.href = "../../FINAL PAGE/finalpage.html";
 }
 function signup() {
-    window.location.href = "signup.html";
+    window.location.href = "../SIGNUP/signup.html";
 }
